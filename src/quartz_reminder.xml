@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quartz>
+       
+    <!-- 奖期获取job -->
+    <job>
+    	<job-detail>
+            <name>IssueQueryJob</name>
+            <group>DEFAULT</group>
+            <job-class>com.hb.lottery.job.IssueQueryJob</job-class>
+        </job-detail>
+        <trigger>
+            <cron>
+                <name>IssueQueryJobTrigger</name>
+                <group>DEFAULT</group>
+                <job-name>IssueQuery</job-name>
+                <job-group>DEFAULT</job-group>
+                 <cron-expression>0/10 * * * *  ?</cron-expression>
+            </cron>
+        </trigger>
+</job>
+</quartz>

@@ -1,0 +1,2075 @@
+2017-08-15 10:53:27,099 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 10:53:29,895 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 10:53:30,017 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 10:53:30,192 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 10:53:30,197 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 10:53:30,197 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 10:53:30,199 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 10:53:30,199 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 10:53:30,200 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 10:53:30,202 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 10:53:30,221 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 85[\r][\n]"
+2017-08-15 10:53:30,221 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 10:53:30,222 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 10:53:30,223 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 10:53:30,223 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 10:53:30,223 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 10:53:30,227 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 10:53:30,228 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 85
+2017-08-15 10:53:30,228 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 10:53:30,228 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 10:53:30,229 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 10:53:30,229 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 10:53:30,230 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=aa79b193c52a8e26bc4399f698785d94&lotteryid=115&transcode=13007&agentid=caiyitest"
+2017-08-15 10:53:31,633 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 10:53:31,639 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 10:53:31,639 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 10:53:31,640 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 10:53:31,640 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 226[\r][\n]"
+2017-08-15 10:53:31,640 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 02:52:44 GMT[\r][\n]"
+2017-08-15 10:53:31,641 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 10:53:31,642 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 10:53:31,643 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 10:53:31,643 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 10:53:31,644 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 10:53:31,644 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 10:53:31,644 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 226
+2017-08-15 10:53:31,645 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 02:52:44 GMT
+2017-08-15 10:53:31,700 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 10:53:31,815 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 10:53:31,822 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 10:53:31,822 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfos>[\n]"
+2017-08-15 10:53:31,823 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueinfo>[\n]"
+2017-08-15 10:53:31,823 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errorcode>-21</errorcode>[\n]"
+2017-08-15 10:53:31,824 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errormsg>[0xe6][0x9c][0x9f][0xe6][0xac][0xa1][0xe5][0x8f][0xb7][0xe4][0xb8][0x8d][0xe5][0x9c][0xa8][0xe9][0x94][0x80][0xe5][0x94][0xae][0xe6][0x9c][0x9f],[0xe8][0xaf][0xb7][0xe7][0xa8][0x8d][0xe5][0x90][0x8e][0xe6][0x9f][0xa5][0xe8][0xaf][0xa2][0xe3][0x80][0x82]</errormsg>[\n]"
+2017-08-15 10:53:31,824 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <lotteryid>115</lotteryid>[\n]"
+2017-08-15 10:53:31,825 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  </issueinfo>[\n]"
+2017-08-15 10:53:31,825 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfos>"
+2017-08-15 10:53:31,826 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3050d2cc
+2017-08-15 10:53:31,827 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 10:53:31,827 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfos>
+  <issueinfo>
+    <errorcode>-21</errorcode>
+    <errormsg>期次号不在销售期,请稍后查询。</errormsg>
+    <lotteryid>115</lotteryid>
+  </issueinfo>
+</issueinfos>
+2017-08-15 10:53:31,829 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:63568<->118.178.130.211:9099 closed
+2017-08-15 10:57:35,333 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 10:57:36,338 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 10:57:36,365 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 10:57:36,409 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 10:57:36,412 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 10:57:36,412 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 10:57:36,414 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 10:57:36,415 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 10:57:36,415 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 10:57:36,416 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 10:57:36,419 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 85[\r][\n]"
+2017-08-15 10:57:36,420 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 10:57:36,420 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 10:57:36,420 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 10:57:36,421 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 10:57:36,421 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 10:57:36,424 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 10:57:36,424 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 85
+2017-08-15 10:57:36,424 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 10:57:36,425 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 10:57:36,425 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 10:57:36,425 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 10:57:36,426 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=aa79b193c52a8e26bc4399f698785d94&lotteryid=115&transcode=13007&agentid=caiyitest"
+2017-08-15 10:57:36,472 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 10:57:36,477 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 10:57:36,477 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 10:57:36,478 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 10:57:36,478 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 345[\r][\n]"
+2017-08-15 10:57:36,478 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 02:56:49 GMT[\r][\n]"
+2017-08-15 10:57:36,479 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 10:57:36,480 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 10:57:36,480 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 10:57:36,480 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 10:57:36,481 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 10:57:36,481 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 10:57:36,481 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 345
+2017-08-15 10:57:36,482 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 02:56:49 GMT
+2017-08-15 10:57:36,489 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 10:57:36,514 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 10:57:36,519 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 10:57:36,519 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfos>[\n]"
+2017-08-15 10:57:36,520 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueinfo>[\n]"
+2017-08-15 10:57:36,520 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errorcode>0</errorcode>[\n]"
+2017-08-15 10:57:36,521 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errormsg>[0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe6][0x88][0x90][0xe5][0x8a][0x9f]</errormsg>[\n]"
+2017-08-15 10:57:36,521 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <lotteryid>115</lotteryid>[\n]"
+2017-08-15 10:57:36,521 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <issueno>170815020</issueno>[\n]"
+2017-08-15 10:57:36,522 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <begintime>2017/08/15 10:53:46</begintime>[\n]"
+2017-08-15 10:57:36,522 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <endtime>2017/08/15 11:01:36</endtime>[\n]"
+2017-08-15 10:57:36,522 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <warestate>1</warestate>[\n]"
+2017-08-15 10:57:36,523 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  </issueinfo>[\n]"
+2017-08-15 10:57:36,523 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfos>"
+2017-08-15 10:57:36,524 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@43163a1e
+2017-08-15 10:57:36,524 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 10:57:36,524 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfos>
+  <issueinfo>
+    <errorcode>0</errorcode>
+    <errormsg>操作成功</errormsg>
+    <lotteryid>115</lotteryid>
+    <issueno>170815020</issueno>
+    <begintime>2017/08/15 10:53:46</begintime>
+    <endtime>2017/08/15 11:01:36</endtime>
+    <warestate>1</warestate>
+  </issueinfo>
+</issueinfos>
+2017-08-15 10:57:36,525 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:63674<->118.178.130.211:9099 closed
+2017-08-15 10:57:36,983 com.zaxxer.hikari.HikariConfig:838 [main] logConfiguration 
+DEBUG: HikariPool-1 - configuration:
+2017-08-15 10:57:36,999 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: allowPoolSuspension.............false
+2017-08-15 10:57:36,999 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: autoCommit......................true
+2017-08-15 10:57:37,000 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: catalog.........................null
+2017-08-15 10:57:37,000 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionInitSql...............null
+2017-08-15 10:57:37,001 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionTestQuery.............null
+2017-08-15 10:57:37,002 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionTimeout...............30000
+2017-08-15 10:57:37,002 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSource......................null
+2017-08-15 10:57:37,002 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceClassName.............null
+2017-08-15 10:57:37,003 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceJNDI..................null
+2017-08-15 10:57:37,004 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceProperties............{password=<masked>}
+2017-08-15 10:57:37,005 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: driverClassName................."com.mysql.jdbc.Driver"
+2017-08-15 10:57:37,005 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: healthCheckProperties...........{}
+2017-08-15 10:57:37,006 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: healthCheckRegistry.............null
+2017-08-15 10:57:37,006 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: idleTimeout.....................600000
+2017-08-15 10:57:37,007 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: initializationFailFast..........true
+2017-08-15 10:57:37,007 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: isolateInternalQueries..........false
+2017-08-15 10:57:37,008 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: jdbc4ConnectionTest.............false
+2017-08-15 10:57:37,008 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: jdbcUrl........................."jdbc:mysql://127.0.0.1:3306/lottery"
+2017-08-15 10:57:37,009 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: leakDetectionThreshold..........0
+2017-08-15 10:57:37,009 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: maxLifetime.....................1800000
+2017-08-15 10:57:37,010 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: maximumPoolSize.................100
+2017-08-15 10:57:37,010 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: metricRegistry..................null
+2017-08-15 10:57:37,010 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: metricsTrackerFactory...........null
+2017-08-15 10:57:37,011 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: minimumIdle.....................10
+2017-08-15 10:57:37,011 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: password........................<masked>
+2017-08-15 10:57:37,012 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: poolName........................"HikariPool-1"
+2017-08-15 10:57:37,012 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: readOnly........................false
+2017-08-15 10:57:37,013 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: registerMbeans..................false
+2017-08-15 10:57:37,013 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: scheduledExecutorService........null
+2017-08-15 10:57:37,014 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: threadFactory...................null
+2017-08-15 10:57:37,014 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: transactionIsolation............null
+2017-08-15 10:57:37,015 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: username........................"root"
+2017-08-15 10:57:37,015 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: validationTimeout...............5000
+2017-08-15 10:57:37,034 com.zaxxer.hikari.HikariDataSource:70 [main] <init> 
+INFO : HikariPool-1 - Started.
+2017-08-15 10:57:38,073 com.zaxxer.hikari.pool.PoolBase:439 [main] getAndSetNetworkTimeout 
+INFO : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2017-08-15 10:57:38,297 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@544f092f
+2017-08-15 11:02:21,768 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 11:02:22,527 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 11:02:22,553 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 11:02:22,594 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 11:02:22,596 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 11:02:22,596 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 11:02:22,598 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 11:02:22,599 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 11:02:22,599 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 11:02:22,600 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 11:02:22,602 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 85[\r][\n]"
+2017-08-15 11:02:22,603 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 11:02:22,603 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 11:02:22,604 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 11:02:22,604 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 11:02:22,604 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 11:02:22,607 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 11:02:22,607 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 85
+2017-08-15 11:02:22,607 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 11:02:22,608 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 11:02:22,608 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 11:02:22,608 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 11:02:22,608 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=aa79b193c52a8e26bc4399f698785d94&lotteryid=115&transcode=13007&agentid=caiyitest"
+2017-08-15 11:02:22,640 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 11:02:22,644 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 11:02:22,645 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 11:02:22,646 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 11:02:22,646 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 345[\r][\n]"
+2017-08-15 11:02:22,647 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 03:01:35 GMT[\r][\n]"
+2017-08-15 11:02:22,647 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 11:02:22,649 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 11:02:22,649 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 11:02:22,649 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 11:02:22,650 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 11:02:22,650 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 11:02:22,650 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 345
+2017-08-15 11:02:22,650 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 03:01:35 GMT
+2017-08-15 11:02:22,657 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 11:02:22,680 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 11:02:22,683 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 11:02:22,683 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfos>[\n]"
+2017-08-15 11:02:22,683 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueinfo>[\n]"
+2017-08-15 11:02:22,684 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errorcode>0</errorcode>[\n]"
+2017-08-15 11:02:22,684 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errormsg>[0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe6][0x88][0x90][0xe5][0x8a][0x9f]</errormsg>[\n]"
+2017-08-15 11:02:22,684 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <lotteryid>115</lotteryid>[\n]"
+2017-08-15 11:02:22,685 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <issueno>170815020</issueno>[\n]"
+2017-08-15 11:02:22,685 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <begintime>2017/08/15 10:53:46</begintime>[\n]"
+2017-08-15 11:02:22,685 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <endtime>2017/08/15 11:01:36</endtime>[\n]"
+2017-08-15 11:02:22,685 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <warestate>1</warestate>[\n]"
+2017-08-15 11:02:22,686 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  </issueinfo>[\n]"
+2017-08-15 11:02:22,686 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfos>"
+2017-08-15 11:02:22,686 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@43163a1e
+2017-08-15 11:02:22,686 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 11:02:22,687 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfos>
+  <issueinfo>
+    <errorcode>0</errorcode>
+    <errormsg>操作成功</errormsg>
+    <lotteryid>115</lotteryid>
+    <issueno>170815020</issueno>
+    <begintime>2017/08/15 10:53:46</begintime>
+    <endtime>2017/08/15 11:01:36</endtime>
+    <warestate>1</warestate>
+  </issueinfo>
+</issueinfos>
+2017-08-15 11:02:22,688 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:63967<->118.178.130.211:9099 closed
+2017-08-15 11:02:22,870 com.zaxxer.hikari.HikariConfig:838 [main] logConfiguration 
+DEBUG: HikariPool-1 - configuration:
+2017-08-15 11:02:22,878 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: allowPoolSuspension.............false
+2017-08-15 11:02:22,879 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: autoCommit......................true
+2017-08-15 11:02:22,879 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: catalog.........................null
+2017-08-15 11:02:22,879 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionInitSql...............null
+2017-08-15 11:02:22,880 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionTestQuery.............null
+2017-08-15 11:02:22,880 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionTimeout...............30000
+2017-08-15 11:02:22,880 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSource......................null
+2017-08-15 11:02:22,880 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceClassName.............null
+2017-08-15 11:02:22,880 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceJNDI..................null
+2017-08-15 11:02:22,881 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceProperties............{password=<masked>}
+2017-08-15 11:02:22,881 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: driverClassName................."com.mysql.jdbc.Driver"
+2017-08-15 11:02:22,881 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: healthCheckProperties...........{}
+2017-08-15 11:02:22,882 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: healthCheckRegistry.............null
+2017-08-15 11:02:22,882 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: idleTimeout.....................600000
+2017-08-15 11:02:22,882 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: initializationFailFast..........true
+2017-08-15 11:02:22,883 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: isolateInternalQueries..........false
+2017-08-15 11:02:22,883 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: jdbc4ConnectionTest.............false
+2017-08-15 11:02:22,883 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: jdbcUrl........................."jdbc:mysql://127.0.0.1:3306/lottery"
+2017-08-15 11:02:22,883 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: leakDetectionThreshold..........0
+2017-08-15 11:02:22,884 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: maxLifetime.....................1800000
+2017-08-15 11:02:22,884 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: maximumPoolSize.................100
+2017-08-15 11:02:22,884 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: metricRegistry..................null
+2017-08-15 11:02:22,884 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: metricsTrackerFactory...........null
+2017-08-15 11:02:22,885 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: minimumIdle.....................10
+2017-08-15 11:02:22,885 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: password........................<masked>
+2017-08-15 11:02:22,885 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: poolName........................"HikariPool-1"
+2017-08-15 11:02:22,885 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: readOnly........................false
+2017-08-15 11:02:22,886 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: registerMbeans..................false
+2017-08-15 11:02:22,886 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: scheduledExecutorService........null
+2017-08-15 11:02:22,886 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: threadFactory...................null
+2017-08-15 11:02:22,886 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: transactionIsolation............null
+2017-08-15 11:02:22,887 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: username........................"root"
+2017-08-15 11:02:22,887 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: validationTimeout...............5000
+2017-08-15 11:02:22,889 com.zaxxer.hikari.HikariDataSource:70 [main] <init> 
+INFO : HikariPool-1 - Started.
+2017-08-15 11:02:23,394 com.zaxxer.hikari.pool.PoolBase:439 [main] getAndSetNetworkTimeout 
+INFO : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2017-08-15 11:02:23,433 com.zaxxer.hikari.pool.HikariPool:387 [HikariPool-1 housekeeper] logPoolState 
+DEBUG: HikariPool-1 - Pool stats (total=0, active=0, idle=0, waiting=0)
+2017-08-15 11:02:23,484 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3a9cfedf
+2017-08-15 11:02:23,514 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@99a61d3
+2017-08-15 11:02:23,565 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1039fc0
+2017-08-15 11:02:23,588 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7848089e
+2017-08-15 11:02:23,621 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6d5818dd
+2017-08-15 11:02:23,642 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@39e43b71
+2017-08-15 11:02:23,681 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@623fb0ee
+2017-08-15 11:02:23,716 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4c14029e
+2017-08-15 11:02:23,763 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@340282a2
+2017-08-15 13:44:17,485 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 13:44:18,624 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 13:44:18,668 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 13:44:18,735 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 13:44:18,740 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 13:44:18,742 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 13:44:18,744 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 13:44:18,745 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 13:44:18,745 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:44:18,748 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 13:44:18,752 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 93[\r][\n]"
+2017-08-15 13:44:18,752 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 13:44:18,753 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 13:44:18,754 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 13:44:18,755 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 13:44:18,756 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 13:44:18,761 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:44:18,762 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 93
+2017-08-15 13:44:18,762 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 13:44:18,763 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 13:44:18,764 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 13:44:18,765 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 13:44:18,767 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=11a4f2eeee2138557f5683dfddf46365&issueno&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 13:44:18,870 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 13:44:18,878 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 13:44:18,879 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 13:44:18,879 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 13:44:18,880 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 13:44:18,881 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 05:43:31 GMT[\r][\n]"
+2017-08-15 13:44:18,882 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 13:44:18,884 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 13:44:18,885 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 13:44:18,886 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 13:44:18,887 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 13:44:18,887 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 13:44:18,888 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 13:44:18,889 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 05:43:31 GMT
+2017-08-15 13:44:18,901 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:44:18,949 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 13:44:18,956 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 13:44:18,957 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 13:44:18,958 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 13:44:18,958 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 13:44:18,959 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 13:44:18,960 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 13:44:18,961 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@614c97d4
+2017-08-15 13:44:18,961 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:44:18,964 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 13:44:18,969 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64385<->118.178.130.211:9099 closed
+2017-08-15 13:47:56,572 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 13:47:56,874 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 13:47:56,888 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 13:47:56,910 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 13:47:56,912 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 13:47:56,912 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 13:47:56,913 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 13:47:56,913 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 13:47:56,913 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:47:56,914 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 13:47:56,915 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 93[\r][\n]"
+2017-08-15 13:47:56,915 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 13:47:56,915 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 13:47:56,915 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 13:47:56,916 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 13:47:56,916 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 13:47:56,918 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:47:56,918 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 93
+2017-08-15 13:47:56,918 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 13:47:56,919 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 13:47:56,919 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 13:47:56,919 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 13:47:56,920 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=7bc9af9d074c534aa2d426d07ec0caf0&issueno&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 13:47:56,942 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 13:47:56,944 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 13:47:56,945 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 13:47:56,945 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 13:47:56,945 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 13:47:56,946 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 05:47:09 GMT[\r][\n]"
+2017-08-15 13:47:56,946 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 13:47:56,947 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 13:47:56,947 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 13:47:56,947 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 13:47:56,947 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 13:47:56,947 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 13:47:56,948 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 13:47:56,948 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 05:47:09 GMT
+2017-08-15 13:47:56,951 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:47:56,961 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 13:47:56,963 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 13:47:56,964 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 13:47:56,964 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 13:47:56,964 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 13:47:56,964 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 13:47:56,964 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 13:47:56,965 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@614c97d4
+2017-08-15 13:47:56,965 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:47:56,965 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 13:47:56,966 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64404<->118.178.130.211:9099 closed
+2017-08-15 13:49:39,708 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 13:49:40,200 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 13:49:40,221 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 13:49:40,258 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 13:49:40,260 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 13:49:40,261 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 13:49:40,262 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 13:49:40,263 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 13:49:40,263 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:49:40,264 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 13:49:40,266 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 93[\r][\n]"
+2017-08-15 13:49:40,266 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 13:49:40,267 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 13:49:40,267 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 13:49:40,267 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 13:49:40,268 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 13:49:40,271 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:49:40,271 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 93
+2017-08-15 13:49:40,272 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 13:49:40,272 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 13:49:40,273 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 13:49:40,273 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 13:49:40,274 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=c87d55d29337f7b92b4264664c68ed8d&issueno&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 13:49:40,304 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 13:49:40,308 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 13:49:40,309 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 13:49:40,309 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 13:49:40,309 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 13:49:40,310 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 05:48:52 GMT[\r][\n]"
+2017-08-15 13:49:40,310 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 13:49:40,311 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 13:49:40,312 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 13:49:40,312 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 13:49:40,312 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 13:49:40,313 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 13:49:40,313 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 13:49:40,313 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 05:48:52 GMT
+2017-08-15 13:49:40,321 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:49:40,339 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 13:49:40,343 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 13:49:40,343 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 13:49:40,343 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 13:49:40,344 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 13:49:40,344 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 13:49:40,344 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 13:49:40,344 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@28bc9678
+2017-08-15 13:49:40,345 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:49:40,345 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 13:49:40,346 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64418<->118.178.130.211:9099 closed
+2017-08-15 13:54:13,757 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 13:54:14,336 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 13:54:14,362 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 13:54:14,396 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 13:54:14,398 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 13:54:14,399 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 13:54:14,401 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 13:54:14,401 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 13:54:14,401 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:54:14,403 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 13:54:14,404 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 13:54:14,405 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 13:54:14,405 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 13:54:14,405 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 13:54:14,406 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 13:54:14,406 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 13:54:14,412 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:54:14,413 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 13:54:14,413 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 13:54:14,414 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 13:54:14,414 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 13:54:14,415 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 13:54:14,416 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=f737359f8b4dbb2fdf08ce59ce4bddcd&issueno=170820020&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 13:54:14,438 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 13:54:14,443 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 13:54:14,443 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 13:54:14,444 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 13:54:14,444 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 13:54:14,445 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 05:53:27 GMT[\r][\n]"
+2017-08-15 13:54:14,445 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 13:54:14,447 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 13:54:14,448 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 13:54:14,448 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 13:54:14,449 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 13:54:14,449 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 13:54:14,450 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 13:54:14,450 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 05:53:27 GMT
+2017-08-15 13:54:14,458 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:54:14,479 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 13:54:14,483 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 13:54:14,484 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 13:54:14,484 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 13:54:14,485 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 13:54:14,485 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 13:54:14,485 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 13:54:14,485 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@614c97d4
+2017-08-15 13:54:14,486 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:54:14,486 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 13:54:14,487 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64456<->118.178.130.211:9099 closed
+2017-08-15 13:57:16,407 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 13:57:16,889 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 13:57:16,913 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 13:57:16,947 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 13:57:16,949 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 13:57:16,949 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 13:57:16,950 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 13:57:16,951 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 13:57:16,951 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:57:16,952 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 13:57:16,953 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 13:57:16,954 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 13:57:16,954 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 13:57:16,954 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 13:57:16,955 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 13:57:16,955 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 13:57:16,958 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:57:16,959 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 13:57:16,959 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 13:57:16,960 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 13:57:16,960 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 13:57:16,960 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 13:57:16,961 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=f737359f8b4dbb2fdf08ce59ce4bddcd&issueno=170820020&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 13:57:16,996 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 13:57:17,000 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 13:57:17,001 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 13:57:17,001 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 13:57:17,001 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 13:57:17,002 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 05:56:29 GMT[\r][\n]"
+2017-08-15 13:57:17,002 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 13:57:17,004 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 13:57:17,004 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 13:57:17,005 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 13:57:17,005 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 13:57:17,005 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 13:57:17,007 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 13:57:17,007 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 05:56:29 GMT
+2017-08-15 13:57:17,013 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:57:17,029 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 13:57:17,034 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 13:57:17,034 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 13:57:17,035 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 13:57:17,035 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 13:57:17,036 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 13:57:17,036 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 13:57:17,036 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6b841133
+2017-08-15 13:57:17,037 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:57:17,037 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 13:57:17,038 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64494<->118.178.130.211:9099 closed
+2017-08-15 13:58:52,033 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 13:58:52,582 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 13:58:52,608 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 13:58:52,638 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 13:58:52,640 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 13:58:52,641 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 13:58:52,642 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 13:58:52,642 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 13:58:52,643 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:58:52,644 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 13:58:52,645 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 13:58:52,646 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 13:58:52,647 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 13:58:52,647 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 13:58:52,648 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 13:58:52,649 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 13:58:52,651 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 13:58:52,652 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 13:58:52,653 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 13:58:52,653 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 13:58:52,653 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 13:58:52,654 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 13:58:52,679 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=f3920ab615baf0cd5dd82521aa5d42ab&issueno=170815020&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 13:58:52,704 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 13:58:52,790 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 13:58:52,790 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 13:58:52,791 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 13:58:52,791 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 13:58:52,792 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 05:58:05 GMT[\r][\n]"
+2017-08-15 13:58:52,792 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 13:58:52,793 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 13:58:52,793 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 13:58:52,794 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 13:58:52,794 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 13:58:52,794 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 13:58:52,794 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 13:58:52,794 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 05:58:05 GMT
+2017-08-15 13:58:52,800 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:58:52,815 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 13:58:52,819 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 13:58:52,819 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 13:58:52,820 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 13:58:52,820 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 13:58:52,820 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 13:58:52,821 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 13:58:52,821 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@614c97d4
+2017-08-15 13:58:52,821 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 13:58:52,821 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 13:58:52,822 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64506<->118.178.130.211:9099 closed
+2017-08-15 14:19:26,967 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:19:27,539 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:19:27,568 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:19:27,614 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:19:27,618 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:19:27,618 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:19:27,620 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:19:27,621 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:19:27,621 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:19:27,623 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:19:27,625 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 14:19:27,626 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:19:27,626 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:19:27,627 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:19:27,627 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:19:27,627 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:19:27,649 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:19:27,651 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 14:19:27,652 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:19:27,652 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:19:27,653 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:19:27,653 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:19:27,654 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=f3920ab615baf0cd5dd82521aa5d42ab&issueno=170815020&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 14:19:27,677 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:19:27,683 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:19:27,683 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:19:27,684 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:19:27,684 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 14:19:27,685 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:18:40 GMT[\r][\n]"
+2017-08-15 14:19:27,685 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:19:27,687 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:19:27,688 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:19:27,688 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:19:27,689 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:19:27,689 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:19:27,689 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 14:19:27,690 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:18:40 GMT
+2017-08-15 14:19:27,698 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:19:27,716 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:19:27,720 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:19:27,720 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 14:19:27,721 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 14:19:27,722 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 14:19:27,722 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 14:19:27,722 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 14:19:27,723 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@614c97d4
+2017-08-15 14:19:27,723 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:19:27,724 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 14:19:27,725 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64705<->118.178.130.211:9099 closed
+2017-08-15 14:24:26,904 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:24:27,698 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:24:27,741 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:24:27,793 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:24:27,796 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:24:27,797 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:24:27,798 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:24:27,799 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:24:27,799 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:24:27,803 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:24:27,806 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 85[\r][\n]"
+2017-08-15 14:24:27,807 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:24:27,808 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:24:27,808 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:24:27,809 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:24:27,810 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:24:27,814 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:24:27,814 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 85
+2017-08-15 14:24:27,816 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:24:27,817 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:24:27,817 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:24:27,818 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:24:27,818 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=aa79b193c52a8e26bc4399f698785d94&lotteryid=115&transcode=13007&agentid=caiyitest"
+2017-08-15 14:24:27,848 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:24:27,853 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:24:27,853 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:24:27,854 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:24:27,854 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 226[\r][\n]"
+2017-08-15 14:24:27,855 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:23:40 GMT[\r][\n]"
+2017-08-15 14:24:27,855 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:24:27,856 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:24:27,857 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:24:27,857 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:24:27,857 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:24:27,858 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:24:27,858 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 226
+2017-08-15 14:24:27,858 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:23:40 GMT
+2017-08-15 14:24:27,865 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:24:27,893 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:24:27,896 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:24:27,897 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfos>[\n]"
+2017-08-15 14:24:27,897 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueinfo>[\n]"
+2017-08-15 14:24:27,897 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errorcode>-21</errorcode>[\n]"
+2017-08-15 14:24:27,898 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errormsg>[0xe6][0x9c][0x9f][0xe6][0xac][0xa1][0xe5][0x8f][0xb7][0xe4][0xb8][0x8d][0xe5][0x9c][0xa8][0xe9][0x94][0x80][0xe5][0x94][0xae][0xe6][0x9c][0x9f],[0xe8][0xaf][0xb7][0xe7][0xa8][0x8d][0xe5][0x90][0x8e][0xe6][0x9f][0xa5][0xe8][0xaf][0xa2][0xe3][0x80][0x82]</errormsg>[\n]"
+2017-08-15 14:24:27,899 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <lotteryid>115</lotteryid>[\n]"
+2017-08-15 14:24:27,899 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  </issueinfo>[\n]"
+2017-08-15 14:24:27,900 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfos>"
+2017-08-15 14:24:27,900 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b2d6c22
+2017-08-15 14:24:27,901 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:24:27,901 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfos>
+  <issueinfo>
+    <errorcode>-21</errorcode>
+    <errormsg>期次号不在销售期,请稍后查询。</errormsg>
+    <lotteryid>115</lotteryid>
+  </issueinfo>
+</issueinfos>
+2017-08-15 14:24:27,902 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64779<->118.178.130.211:9099 closed
+2017-08-15 14:25:23,206 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:25:23,957 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:25:24,012 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:25:24,072 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:25:24,075 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:25:24,075 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:25:24,077 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:25:24,078 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:25:24,078 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:25:24,080 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:25:24,082 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 85[\r][\n]"
+2017-08-15 14:25:24,083 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:25:24,083 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:25:24,085 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:25:24,085 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:25:24,085 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:25:24,090 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:25:24,091 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 85
+2017-08-15 14:25:24,091 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:25:24,091 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:25:24,092 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:25:24,092 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:25:24,093 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=aa79b193c52a8e26bc4399f698785d94&lotteryid=115&transcode=13007&agentid=caiyitest"
+2017-08-15 14:25:24,115 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:25:24,119 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:25:24,120 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:25:24,120 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:25:24,120 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 226[\r][\n]"
+2017-08-15 14:25:24,121 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:24:36 GMT[\r][\n]"
+2017-08-15 14:25:24,121 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:25:24,122 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:25:24,123 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:25:24,123 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:25:24,123 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:25:24,123 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:25:24,124 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 226
+2017-08-15 14:25:24,124 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:24:36 GMT
+2017-08-15 14:25:24,131 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:25:24,156 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:25:24,160 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:25:24,161 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfos>[\n]"
+2017-08-15 14:25:24,161 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueinfo>[\n]"
+2017-08-15 14:25:24,161 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errorcode>-21</errorcode>[\n]"
+2017-08-15 14:25:24,162 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errormsg>[0xe6][0x9c][0x9f][0xe6][0xac][0xa1][0xe5][0x8f][0xb7][0xe4][0xb8][0x8d][0xe5][0x9c][0xa8][0xe9][0x94][0x80][0xe5][0x94][0xae][0xe6][0x9c][0x9f],[0xe8][0xaf][0xb7][0xe7][0xa8][0x8d][0xe5][0x90][0x8e][0xe6][0x9f][0xa5][0xe8][0xaf][0xa2][0xe3][0x80][0x82]</errormsg>[\n]"
+2017-08-15 14:25:24,162 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <lotteryid>115</lotteryid>[\n]"
+2017-08-15 14:25:24,162 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  </issueinfo>[\n]"
+2017-08-15 14:25:24,162 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfos>"
+2017-08-15 14:25:24,163 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@43163a1e
+2017-08-15 14:25:24,163 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:25:24,163 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfos>
+  <issueinfo>
+    <errorcode>-21</errorcode>
+    <errormsg>期次号不在销售期,请稍后查询。</errormsg>
+    <lotteryid>115</lotteryid>
+  </issueinfo>
+</issueinfos>
+2017-08-15 14:25:24,164 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64787<->118.178.130.211:9099 closed
+2017-08-15 14:27:19,398 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:27:20,211 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:27:20,260 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:27:20,303 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:27:20,305 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:27:20,306 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:27:20,307 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:27:20,307 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:27:20,308 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:27:20,309 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:27:20,312 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 85[\r][\n]"
+2017-08-15 14:27:20,313 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:27:20,313 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:27:20,313 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:27:20,314 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:27:20,315 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:27:20,319 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:27:20,320 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 85
+2017-08-15 14:27:20,321 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:27:20,322 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:27:20,322 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:27:20,322 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:27:20,323 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=aa79b193c52a8e26bc4399f698785d94&lotteryid=115&transcode=13007&agentid=caiyitest"
+2017-08-15 14:27:20,353 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:27:20,356 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:27:20,357 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:27:20,357 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:27:20,357 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 345[\r][\n]"
+2017-08-15 14:27:20,358 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:26:33 GMT[\r][\n]"
+2017-08-15 14:27:20,358 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:27:20,359 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:27:20,359 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:27:20,360 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:27:20,360 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:27:20,360 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:27:20,360 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 345
+2017-08-15 14:27:20,360 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:26:33 GMT
+2017-08-15 14:27:20,367 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:27:20,392 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:27:20,396 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:27:20,397 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfos>[\n]"
+2017-08-15 14:27:20,397 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueinfo>[\n]"
+2017-08-15 14:27:20,398 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errorcode>0</errorcode>[\n]"
+2017-08-15 14:27:20,398 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <errormsg>[0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe6][0x88][0x90][0xe5][0x8a][0x9f]</errormsg>[\n]"
+2017-08-15 14:27:20,398 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <lotteryid>115</lotteryid>[\n]"
+2017-08-15 14:27:20,400 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <issueno>170815041</issueno>[\n]"
+2017-08-15 14:27:20,400 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <begintime>2017/08/15 14:23:46</begintime>[\n]"
+2017-08-15 14:27:20,400 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <endtime>2017/08/15 14:31:36</endtime>[\n]"
+2017-08-15 14:27:20,400 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "    <warestate>1</warestate>[\n]"
+2017-08-15 14:27:20,400 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  </issueinfo>[\n]"
+2017-08-15 14:27:20,400 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfos>"
+2017-08-15 14:27:20,401 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b2d6c22
+2017-08-15 14:27:20,401 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:27:20,401 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfos>
+  <issueinfo>
+    <errorcode>0</errorcode>
+    <errormsg>操作成功</errormsg>
+    <lotteryid>115</lotteryid>
+    <issueno>170815041</issueno>
+    <begintime>2017/08/15 14:23:46</begintime>
+    <endtime>2017/08/15 14:31:36</endtime>
+    <warestate>1</warestate>
+  </issueinfo>
+</issueinfos>
+2017-08-15 14:27:20,402 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64796<->118.178.130.211:9099 closed
+2017-08-15 14:27:20,626 com.zaxxer.hikari.HikariConfig:838 [main] logConfiguration 
+DEBUG: HikariPool-1 - configuration:
+2017-08-15 14:27:20,637 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: allowPoolSuspension.............false
+2017-08-15 14:27:20,637 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: autoCommit......................true
+2017-08-15 14:27:20,638 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: catalog.........................null
+2017-08-15 14:27:20,638 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionInitSql...............null
+2017-08-15 14:27:20,638 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionTestQuery.............null
+2017-08-15 14:27:20,638 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: connectionTimeout...............30000
+2017-08-15 14:27:20,639 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSource......................null
+2017-08-15 14:27:20,639 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceClassName.............null
+2017-08-15 14:27:20,639 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceJNDI..................null
+2017-08-15 14:27:20,640 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: dataSourceProperties............{password=<masked>}
+2017-08-15 14:27:20,640 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: driverClassName................."com.mysql.jdbc.Driver"
+2017-08-15 14:27:20,640 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: healthCheckProperties...........{}
+2017-08-15 14:27:20,641 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: healthCheckRegistry.............null
+2017-08-15 14:27:20,642 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: idleTimeout.....................600000
+2017-08-15 14:27:20,642 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: initializationFailFast..........true
+2017-08-15 14:27:20,643 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: isolateInternalQueries..........false
+2017-08-15 14:27:20,643 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: jdbc4ConnectionTest.............false
+2017-08-15 14:27:20,644 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: jdbcUrl........................."jdbc:mysql://127.0.0.1:3306/lottery"
+2017-08-15 14:27:20,645 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: leakDetectionThreshold..........0
+2017-08-15 14:27:20,646 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: maxLifetime.....................1800000
+2017-08-15 14:27:20,646 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: maximumPoolSize.................100
+2017-08-15 14:27:20,647 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: metricRegistry..................null
+2017-08-15 14:27:20,647 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: metricsTrackerFactory...........null
+2017-08-15 14:27:20,647 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: minimumIdle.....................10
+2017-08-15 14:27:20,648 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: password........................<masked>
+2017-08-15 14:27:20,648 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: poolName........................"HikariPool-1"
+2017-08-15 14:27:20,648 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: readOnly........................false
+2017-08-15 14:27:20,649 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: registerMbeans..................false
+2017-08-15 14:27:20,649 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: scheduledExecutorService........null
+2017-08-15 14:27:20,649 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: threadFactory...................null
+2017-08-15 14:27:20,649 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: transactionIsolation............null
+2017-08-15 14:27:20,651 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: username........................"root"
+2017-08-15 14:27:20,652 com.zaxxer.hikari.HikariConfig:854 [main] logConfiguration 
+DEBUG: validationTimeout...............5000
+2017-08-15 14:27:20,654 com.zaxxer.hikari.HikariDataSource:70 [main] <init> 
+INFO : HikariPool-1 - Started.
+2017-08-15 14:27:21,219 com.zaxxer.hikari.pool.PoolBase:439 [main] getAndSetNetworkTimeout 
+INFO : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2017-08-15 14:27:21,259 com.zaxxer.hikari.pool.HikariPool:454 [HikariPool-1 connection adder] createPoolEntry 
+DEBUG: HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@25fe3515
+2017-08-15 14:27:47,626 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:27:48,154 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:27:48,178 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:27:48,219 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:27:48,222 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:27:48,223 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:27:48,224 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:27:48,225 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:27:48,225 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:27:48,227 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:27:48,229 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 14:27:48,229 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:27:48,230 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:27:48,230 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:27:48,231 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:27:48,231 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:27:48,234 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:27:48,235 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 14:27:48,238 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:27:48,239 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:27:48,239 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:27:48,240 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:27:48,240 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=ed94aa06bc9155d798a7846116a87107&issueno=170815041&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 14:27:48,265 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:27:48,270 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:27:48,270 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:27:48,271 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:27:48,271 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 172[\r][\n]"
+2017-08-15 14:27:48,272 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:27:00 GMT[\r][\n]"
+2017-08-15 14:27:48,272 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:27:48,274 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:27:48,274 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:27:48,274 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:27:48,275 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:27:48,275 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:27:48,275 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 172
+2017-08-15 14:27:48,276 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:27:00 GMT
+2017-08-15 14:27:48,284 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:27:48,302 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:27:48,306 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:27:48,306 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 14:27:48,306 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-2</errorcode>[\n]"
+2017-08-15 14:27:48,307 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0x8a][0xa0][0xe5][0xaf][0x86][0xe4][0xb8][0x8d][0xe4][0xb8][0x80][0xe8][0x87][0xb4]</errormsg>[\n]"
+2017-08-15 14:27:48,307 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 14:27:48,307 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 14:27:48,308 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6b841133
+2017-08-15 14:27:48,308 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:27:48,309 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-2</errorcode>
+  <errormsg>参数数据加密不一致</errormsg>
+  <lotteryid>115</lotteryid>
+</issueinfo>
+2017-08-15 14:27:48,310 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64802<->118.178.130.211:9099 closed
+2017-08-15 14:31:31,939 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:31:32,476 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:31:32,504 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:31:32,543 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:31:32,545 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:31:32,546 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:31:32,547 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:31:32,547 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:31:32,548 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:31:32,549 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:31:32,551 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 14:31:32,552 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:31:32,552 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:31:32,553 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:31:32,553 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:31:32,554 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:31:32,558 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:31:32,558 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 14:31:32,558 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:31:32,559 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:31:32,559 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:31:32,560 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:31:32,561 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=00032f973ccbaf25c29bc40e4ac4e61d&issueno=170815041&lotteryid=115&transcode=13010&agentid=caiyitest"
+2017-08-15 14:31:32,889 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:31:32,891 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:31:32,892 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:31:32,892 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:31:32,892 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 222[\r][\n]"
+2017-08-15 14:31:32,892 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:30:45 GMT[\r][\n]"
+2017-08-15 14:31:32,893 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:31:32,894 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:31:32,894 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:31:32,895 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:31:32,895 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:31:32,895 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:31:32,896 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 222
+2017-08-15 14:31:32,896 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:30:45 GMT
+2017-08-15 14:31:32,901 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:31:32,932 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:31:32,940 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:31:32,941 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 14:31:32,942 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-22</errorcode>[\n]"
+2017-08-15 14:31:32,943 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0xbc][0x80][0xe5][0xa5][0x96][0xe5][0x8f][0xb7][0xe7][0xa0][0x81][0xe6][0xb2][0xa1][0xe6][0x9c][0x89][0xe6][0x9b][0xb4][0xe6][0x96][0xb0][0xef][0xbc][0x8c][0xe8][0xaf][0xb7][0xe7][0xa8][0x8d][0xe5][0x90][0x8e][0xe6][0x9f][0xa5][0xe8][0xaf][0xa2][0xe3][0x80][0x82]</errormsg>[\n]"
+2017-08-15 14:31:32,945 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>115</lotteryid>[\n]"
+2017-08-15 14:31:32,946 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueno>170815041</issueno>[\n]"
+2017-08-15 14:31:32,948 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 14:31:32,948 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@614c97d4
+2017-08-15 14:31:32,949 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:31:32,950 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-22</errorcode>
+  <errormsg>开奖号码没有更新，请稍后查询。</errormsg>
+  <lotteryid>115</lotteryid>
+  <issueno>170815041</issueno>
+</issueinfo>
+2017-08-15 14:31:32,952 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64870<->118.178.130.211:9099 closed
+2017-08-15 14:32:29,898 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:32:30,506 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:32:30,537 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:32:30,584 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:32:30,588 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:32:30,588 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:32:30,590 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:32:30,590 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:32:30,591 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:32:30,593 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:32:30,596 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 14:32:30,596 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:32:30,597 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:32:30,597 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:32:30,598 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:32:30,598 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:32:30,604 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:32:30,605 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 14:32:30,608 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:32:30,608 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:32:30,610 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:32:30,610 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:32:30,611 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=fde1c471e460df4bf0c87cf00d175654&issueno=170815041&lotteryid=112&transcode=13010&agentid=caiyitest"
+2017-08-15 14:32:30,681 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:32:30,687 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:32:30,688 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:32:30,688 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:32:30,689 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 222[\r][\n]"
+2017-08-15 14:32:30,689 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:31:43 GMT[\r][\n]"
+2017-08-15 14:32:30,690 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:32:30,693 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:32:30,694 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:32:30,694 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:32:30,694 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:32:30,695 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:32:30,695 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 222
+2017-08-15 14:32:30,696 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:31:43 GMT
+2017-08-15 14:32:30,704 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:32:30,729 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:32:30,733 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:32:30,734 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 14:32:30,734 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>-22</errorcode>[\n]"
+2017-08-15 14:32:30,735 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe5][0xbc][0x80][0xe5][0xa5][0x96][0xe5][0x8f][0xb7][0xe7][0xa0][0x81][0xe6][0xb2][0xa1][0xe6][0x9c][0x89][0xe6][0x9b][0xb4][0xe6][0x96][0xb0][0xef][0xbc][0x8c][0xe8][0xaf][0xb7][0xe7][0xa8][0x8d][0xe5][0x90][0x8e][0xe6][0x9f][0xa5][0xe8][0xaf][0xa2][0xe3][0x80][0x82]</errormsg>[\n]"
+2017-08-15 14:32:30,735 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>112</lotteryid>[\n]"
+2017-08-15 14:32:30,736 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueno>170815041</issueno>[\n]"
+2017-08-15 14:32:30,736 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 14:32:30,737 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@614c97d4
+2017-08-15 14:32:30,737 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:32:30,738 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>-22</errorcode>
+  <errormsg>开奖号码没有更新，请稍后查询。</errormsg>
+  <lotteryid>112</lotteryid>
+  <issueno>170815041</issueno>
+</issueinfo>
+2017-08-15 14:32:30,740 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64887<->118.178.130.211:9099 closed
+2017-08-15 14:32:46,010 com.hb.lottery.conf.HttpSender:39 [main] post 
+INFO : create httppost:http://118.178.130.211:9099/sportteryProxy/getOrderID.do
+2017-08-15 14:32:46,533 org.apache.http.impl.conn.BasicClientConnectionManager:160 [main] getConnection 
+DEBUG: Get connection for route {}->http://118.178.130.211:9099
+2017-08-15 14:32:46,556 org.apache.http.impl.conn.DefaultClientConnectionOperator:174 [main] openConnection 
+DEBUG: Connecting to 118.178.130.211:9099
+2017-08-15 14:32:46,591 org.apache.http.client.protocol.RequestAddCookies:122 [main] process 
+DEBUG: CookieSpec selected: default
+2017-08-15 14:32:46,593 org.apache.http.client.protocol.RequestAuthCache:76 [main] process 
+DEBUG: Auth cache not set in the context
+2017-08-15 14:32:46,594 org.apache.http.client.protocol.RequestTargetAuthentication:78 [main] process 
+DEBUG: Target auth state: UNCHALLENGED
+2017-08-15 14:32:46,595 org.apache.http.client.protocol.RequestProxyAuthentication:87 [main] process 
+DEBUG: Proxy auth state: UNCHALLENGED
+2017-08-15 14:32:46,595 org.apache.http.impl.client.DefaultHttpClient:683 [main] tryExecute 
+DEBUG: Attempt 1 to execute request
+2017-08-15 14:32:46,596 org.apache.http.impl.conn.DefaultClientConnection:268 [main] sendRequestHeader 
+DEBUG: Sending request: POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:32:46,597 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "POST /sportteryProxy/getOrderID.do HTTP/1.1[\r][\n]"
+2017-08-15 14:32:46,599 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Length: 103[\r][\n]"
+2017-08-15 14:32:46,599 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Content-Type: application/x-www-form-urlencoded; charset=GBK[\r][\n]"
+2017-08-15 14:32:46,600 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Host: 118.178.130.211:9099[\r][\n]"
+2017-08-15 14:32:46,600 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "Connection: Keep-Alive[\r][\n]"
+2017-08-15 14:32:46,600 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-08-15 14:32:46,601 org.apache.http.wire:72 [main] wire 
+DEBUG:  >> "[\r][\n]"
+2017-08-15 14:32:46,606 org.apache.http.headers:272 [main] sendRequestHeader 
+DEBUG: >> POST /sportteryProxy/getOrderID.do HTTP/1.1
+2017-08-15 14:32:46,607 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Length: 103
+2017-08-15 14:32:46,608 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Content-Type: application/x-www-form-urlencoded; charset=GBK
+2017-08-15 14:32:46,608 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Host: 118.178.130.211:9099
+2017-08-15 14:32:46,609 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> Connection: Keep-Alive
+2017-08-15 14:32:46,610 org.apache.http.headers:275 [main] sendRequestHeader 
+DEBUG: >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-08-15 14:32:46,611 org.apache.http.wire:86 [main] wire 
+DEBUG:  >> "sign=ba6d4ffd092be957e814f3e071438fc6&issueno=170815040&lotteryid=112&transcode=13010&agentid=caiyitest"
+2017-08-15 14:32:46,633 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-15 14:32:46,637 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-08-15 14:32:46,638 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Disposition: inline;filename=f.txt[\r][\n]"
+2017-08-15 14:32:46,639 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Type: text/javascript;charset=UTF-8[\r][\n]"
+2017-08-15 14:32:46,639 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Content-Length: 228[\r][\n]"
+2017-08-15 14:32:46,640 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "Date: Tue, 15 Aug 2017 06:31:59 GMT[\r][\n]"
+2017-08-15 14:32:46,641 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "[\r][\n]"
+2017-08-15 14:32:46,643 org.apache.http.impl.conn.DefaultClientConnection:253 [main] receiveResponseHeader 
+DEBUG: Receiving response: HTTP/1.1 200 OK
+2017-08-15 14:32:46,644 org.apache.http.headers:256 [main] receiveResponseHeader 
+DEBUG: << HTTP/1.1 200 OK
+2017-08-15 14:32:46,645 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Server: Apache-Coyote/1.1
+2017-08-15 14:32:46,645 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Disposition: inline;filename=f.txt
+2017-08-15 14:32:46,646 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Type: text/javascript;charset=UTF-8
+2017-08-15 14:32:46,646 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Content-Length: 228
+2017-08-15 14:32:46,646 org.apache.http.headers:259 [main] receiveResponseHeader 
+DEBUG: << Date: Tue, 15 Aug 2017 06:31:59 GMT
+2017-08-15 14:32:46,654 org.apache.http.impl.client.DefaultHttpClient:510 [main] execute 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:32:46,671 com.hb.lottery.conf.HttpSender:80 [main] paseResponse 
+INFO : response status: HTTP/1.1 200 OK
+2017-08-15 14:32:46,673 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<?xml version="1.0" encoding="UTF-8"?>[\r][\n]"
+2017-08-15 14:32:46,674 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "<issueinfo>[\n]"
+2017-08-15 14:32:46,674 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errorcode>0</errorcode>[\n]"
+2017-08-15 14:32:46,675 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <errormsg>[0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe6][0x88][0x90][0xe5][0x8a][0x9f]</errormsg>[\n]"
+2017-08-15 14:32:46,675 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <lotteryid>112</lotteryid>[\n]"
+2017-08-15 14:32:46,675 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <issueno>170815040</issueno>[\n]"
+2017-08-15 14:32:46,675 org.apache.http.wire:72 [main] wire 
+DEBUG:  << "  <luckyno>1,14,17,2,13,8,7,18</luckyno>[\n]"
+2017-08-15 14:32:46,676 org.apache.http.wire:86 [main] wire 
+DEBUG:  << "</issueinfo>"
+2017-08-15 14:32:46,677 org.apache.http.impl.conn.BasicClientConnectionManager:198 [main] releaseConnection 
+DEBUG: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@28bc9678
+2017-08-15 14:32:46,678 org.apache.http.impl.conn.BasicClientConnectionManager:223 [main] releaseConnection 
+DEBUG: Connection can be kept alive indefinitely
+2017-08-15 14:32:46,678 com.hb.lottery.conf.HttpSender:87 [main] paseResponse 
+INFO : <?xml version="1.0" encoding="UTF-8"?>
+<issueinfo>
+  <errorcode>0</errorcode>
+  <errormsg>操作成功</errormsg>
+  <lotteryid>112</lotteryid>
+  <issueno>170815040</issueno>
+  <luckyno>1,14,17,2,13,8,7,18</luckyno>
+</issueinfo>
+2017-08-15 14:32:46,679 org.apache.http.impl.conn.DefaultClientConnection:176 [main] close 
+DEBUG: Connection 0.0.0.0:64891<->118.178.130.211:9099 closed
